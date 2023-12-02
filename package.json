@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.2",
+    "autoprefixer": "^10.4.15",
+    "nuxt": "^3.7.1",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animated": "^1.0.1",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.3.23"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.4.4",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "@vueuse/motion": "^2.0.0",
+    "axios": "^1.5.1",
+    "esbuild": "^0.19.5",
+    "flowbite": "^1.8.1",
+    "flowbite-vue": "^0.1.0",
+    "html2canvas": "^1.4.1",
+    "html2pdf.js": "^0.10.1",
+    "jspdf": "^2.5.1",
+    "pdfmake": "^0.2.7",
+    "pinia": "^2.1.7",
+    "survey-pdf": "^1.9.111",
+    "tw-elements": "^1.0.0",
+    "vee-validate": "^4.11.8"
+  }
+}

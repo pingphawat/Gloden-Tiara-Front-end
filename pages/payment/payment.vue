@@ -1,0 +1,3 @@
+<template>
+  <QrPayment></QrPayment>
+</template>
